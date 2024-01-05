@@ -9,19 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/button": "^2.0.26",
+    "@nextui-org/card": "^2.0.24",
+    "@nextui-org/chip": "^2.0.25",
+    "@nextui-org/divider": "^2.0.25",
+    "@nextui-org/progress": "^2.0.24",
+    "@nextui-org/snippet": "^2.0.30",
+    "@nextui-org/system": "^2.0.15",
+    "@nextui-org/theme": "^2.1.17",
+    "@react-hook/media-query": "^1.1.1",
+    "@studio-freight/lenis": "^1.0.33",
+    "framer-motion": "^10.16.16",
+    "gsap": "^3.12.4",
+    "lottie-react": "^2.4.0",
+    "lucide-react": "^0.302.0",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-responsive": "^9.0.2",
+    "split-type": "^0.3.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "typescript": "^5"
   }
 }
