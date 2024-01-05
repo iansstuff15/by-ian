@@ -1,3 +1,4 @@
+'use client'
 import ProjectCard from '@/components/cards/project/project-card.component'
 
 const ProjectSection = () => {

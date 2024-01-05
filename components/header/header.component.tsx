@@ -19,33 +19,32 @@ const Header = () => {
   const isMobile = !useMediaQuery({
     query: '(min-width: 640px)',
   })
-  const lenis = new Lenis()
-  function raf(time: any) {
-    lenis.raf(time)
-    requestAnimationFrame(raf)
-  }
+  // const lenis = new Lenis()
+  // function raf(time: any) {
+  //   lenis.raf(time)
+  //   requestAnimationFrame(raf)
+  // }
 
   useEffect(() => {
-    if (lenis.isScrolling) {
-      console.log(lenis.isScrolling)
-      gsap.to(progressRef.current, {
-        height: '10vh',
-      })
-    } else {
-      gsap.from(progressRef.current, {
-        height: '10vh',
-      })
-    }
-    lenis.on('scroll', (e: any) => {
-      setScrollProgress(e.progress)
-      if (e.progress == 0 || e.progress == 1) {
-        setCompactHeader(false)
-      } else {
-        setCompactHeader(true)
-      }
-    })
-
-    requestAnimationFrame(raf)
+    // if (lenis.isScrolling) {
+    //   console.log(lenis.isScrolling)
+    //   gsap.to(progressRef.current, {
+    //     height: '10vh',
+    //   })
+    // } else {
+    //   gsap.from(progressRef.current, {
+    //     height: '10vh',
+    //   })
+    // }
+    // lenis.on('scroll', (e: any) => {
+    //   setScrollProgress(e.progress)
+    //   if (e.progress == 0 || e.progress == 1) {
+    //     setCompactHeader(false)
+    //   } else {
+    //     setCompactHeader(true)
+    //   }
+    // })
+    // requestAnimationFrame(raf)
   }, [])
   return (
     <header ref={headerRef} className='fixed w-full top-0 z-40 '>
@@ -56,7 +55,7 @@ const Header = () => {
       >
         <div
           className='justify-self-start self-center font-black text-xl sm:text-4xl cursor-pointer'
-          onClick={() => lenis.scrollTo('start')}
+          onClick={() => {}}
         >
           {'<ByIan />'}
         </div>

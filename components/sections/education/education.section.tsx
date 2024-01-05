@@ -1,3 +1,4 @@
+'use client'
 import AWSIcon from '@/assets/aws-icon-white.svg'
 import AppButton from '@/components/button/button.components'
 import AcademicCard from '@/components/cards/academic/academic-card.component'

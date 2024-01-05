@@ -1,3 +1,4 @@
+'use client'
 import AppButton from '@/components/button/button.components'
 import { Snippet } from '@nextui-org/snippet'
 import { ArrowUpRight, Github, Linkedin } from 'lucide-react'
