@@ -52,45 +52,42 @@ const CareerSection = () => {
             company='UBX Philippines Corporation'
             start='July 2023'
             end='November 2023'
-            description='Culpa cupidatat eiusmod aliqua reprehenderit ea nulla exercitation ut sint. Ut amet voluptate qui ipsum ullamco. Laboris excepteur sint irure labore cupidatat consectetur ipsum qui. Velit occaecat aliqua nisi magna consequat aute quis enim id veniam amet laborum laborum. Eiusmod nostrud id occaecat consectetur et eu adipisicing dolore qui Lorem aute proident ea id. Ex nostrud anim veniam proident deserunt eiusmod.'
+            description='Contributed to the native frontend iOS development of a project overhaul, focusing on elevating user experience and integrating new functionalities.'
           />
           <CareerCard
             title='Accenture Internship Program'
             company='Accenture Inc.'
             start='Febuary 2023'
             end='March 2023'
-            description='Sunt reprehenderit voluptate in mollit qui irure tempor do voluptate. Consequat culpa voluptate pariatur minim enim id. Culpa non tempor nostrud adipisicing irure dolor elit adipisicing cupidatat dolor mollit. Sunt ipsum tempor enim anim laborum nulla sint cupidatat nostrud laboris culpa. Velit cupidatat consectetur non minim.'
+            description='Designed and implemented a comprehensive solution for team leave request management, leveraging PowerApps, SharePoint list, and Power Automate to enhance efficiency.'
           />
           <CareerCard
             title='IT Intern'
             company='Pearson Inc.'
             start='November 2022'
             end='Febuary 2023'
-            description='Cupidatat non sit duis aliquip velit amet. Amet proident esse dolor laborum fugiat commodo enim. Adipisicing deserunt nisi consectetur dolore ea cillum eu consectetur irure. Esse occaecat laboris proident adipisicing laboris irure qui aliqua ut. Veniam labore aliqua mollit esse labore sit excepteur pariatur ex id quis. Adipisicing excepteur ipsum officia in mollit voluptate amet nostrud consequat amet veniam. Sint labore aliquip ut mollit labore cillum anim proident.'
+            description='Executed service activities aligned with the service catalogue, conducted data updates, and played a key role in maintaining and improving quality standards within the team. Actively participated in the development of an asset management software for internal use.'
           />
           <CareerCard
             title='Organization President'
             company='TIP-ACM student chapter'
             start='August 2021'
             end='August 2022'
-            description='Cupidatat non sit duis aliquip velit amet. Amet proident esse dolor laborum fugiat commodo enim. Adipisicing deserunt nisi consectetur dolore ea cillum eu consectetur irure. Esse occaecat laboris proident adipisicing laboris irure qui aliqua ut. Veniam labore aliqua mollit esse labore sit excepteur pariatur ex id quis. Adipisicing excepteur ipsum officia in mollit voluptate amet nostrud consequat amet veniam. Sint labore aliquip ut mollit labore cillum anim proident.'
             centerText={true}
           />
           <div className='lg:flex grid gap-4 sm:gap-20 lg:gap-0'>
             <CareerCard
               title='Vice President for Communications'
               company='TIP-ACM student chapter'
-              start='August 2021'
-              end='August 2022'
-              description='Cupidatat non sit duis aliquip velit amet. Amet proident esse dolor laborum fugiat commodo enim. Adipisicing deserunt nisi consectetur dolore ea cillum eu consectetur irure. Esse occaecat laboris proident adipisicing laboris irure qui aliqua ut. Veniam labore aliqua mollit esse labore sit excepteur pariatur ex id quis. Adipisicing excepteur ipsum officia in mollit voluptate amet nostrud consequat amet veniam. Sint labore aliquip ut mollit labore cillum anim proident.'
+              start='August 2020'
+              end='August 2021'
               centerText={true}
             />
             <CareerCard
               title='Junior Creatives Officer '
               company='TIP-ACM student chapter'
-              start='August 2021'
-              end='August 2022'
-              description='Cupidatat non sit duis aliquip velit amet. Amet proident esse dolor laborum fugiat commodo enim. Adipisicing deserunt nisi consectetur dolore ea cillum eu consectetur irure. Esse occaecat laboris proident adipisicing laboris irure qui aliqua ut. Veniam labore aliqua mollit esse labore sit excepteur pariatur ex id quis. Adipisicing excepteur ipsum officia in mollit voluptate amet nostrud consequat amet veniam. Sint labore aliquip ut mollit labore cillum anim proident.'
+              start='August 2019'
+              end='August 2020'
               centerText={true}
             />
           </div>

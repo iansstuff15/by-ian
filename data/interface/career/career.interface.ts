@@ -3,6 +3,6 @@ export interface CareerCardProps {
   company: string
   start: string
   end: string
-  description: string
+  description?: string
   centerText?: boolean
 }

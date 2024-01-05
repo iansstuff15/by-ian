@@ -5,6 +5,7 @@ import { ArrowUpRight, Github, Linkedin } from 'lucide-react'
 import { useEffect, useState, useRef } from 'react'
 import gsap from 'gsap'
 import { timeline } from '@/util/animation/animation'
+import Link from 'next/link'
 const FooterSection = () => {
   const containerRef = useRef<HTMLDivElement>(null)
   const titleRef = useRef<HTMLHeadingElement>(null)
@@ -107,20 +108,27 @@ const FooterSection = () => {
                 </Snippet>
               </div>
               <div ref={githubButtonRef}>
-                <AppButton
-                  label='GitHub'
-                  startContent={<Github />}
-                  endContent={<ArrowUpRight />}
-                  className='w-full'
-                />
+                <Link href={'https://github.com/iansstuff15'} target='_blank'>
+                  <AppButton
+                    label='GitHub'
+                    startContent={<Github />}
+                    endContent={<ArrowUpRight />}
+                    className='w-full'
+                  />
+                </Link>
               </div>
               <div ref={linkedinButtonRef}>
-                <AppButton
-                  label='LinkedIn'
-                  startContent={<Linkedin />}
-                  endContent={<ArrowUpRight />}
-                  className='w-full'
-                />
+                <Link
+                  href={'https://www.linkedin.com/in/diriangen-powell/'}
+                  target='_blank'
+                >
+                  <AppButton
+                    label='LinkedIn'
+                    startContent={<Linkedin />}
+                    endContent={<ArrowUpRight />}
+                    className='w-full'
+                  />
+                </Link>
               </div>
             </div>
           </div>
@@ -130,12 +138,17 @@ const FooterSection = () => {
             Checkout the how the portfolio is made here
           </h1>
           <div ref={repositoryButtonRef}>
-            <AppButton
-              className='text-white'
-              label='Github Repository'
-              variant='light'
-              endContent={<ArrowUpRight />}
-            />
+            <Link
+              href={'https://github.com/iansstuff15/by-ian'}
+              target='_blank'
+            >
+              <AppButton
+                className='text-white'
+                label='Github Repository'
+                variant='light'
+                endContent={<ArrowUpRight />}
+              />
+            </Link>
           </div>
         </div>
       </div>

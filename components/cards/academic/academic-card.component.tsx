@@ -50,7 +50,10 @@ const AcademicCard = ({
             />
           ) : null}
         </div>
-        <h2 ref={titleRef} className='text-xl font-bold'>
+        <h2
+          ref={titleRef}
+          className='text-xl font-bold text-ellipsis line-clamp-1'
+        >
           {title}
         </h2>
         <h3 ref={subtitleRef} className='text-sm font-bold'>
